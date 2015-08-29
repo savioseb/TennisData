@@ -1,0 +1,20 @@
+---
+title: "Predicting Tennis Match Outcome"
+author: ""
+date: "August 31, 2015"
+output:
+  html_document:
+    keep_md: yes
+    theme: cerulean
+    toc: yes
+---
+
+
+```{r setup, echo=FALSE , include=FALSE , fig.width=10, fig.height=10}
+# Setting up the R Markdown Report
+# echo & include is set to false because I do not want this on the report
+# enabling cache so we don't have to run the code everytime
+knitr::opts_chunk$set(cache=TRUE, out.width='800px' , dpi=200 )  
+# width of the report & to prevent Scientific notations for large numbers
+options(width=80 , scipen=10000)
+```
